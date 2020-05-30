@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		040CD3CD2482E5A300A68AB5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 040CD3CC2482E5A300A68AB5 /* main.cpp */; };
+		040CD3D62482E64500A68AB5 /* liregraphe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 040CD3D52482E64500A68AB5 /* liregraphe.cpp */; };
+		040CD3D92482E68000A68AB5 /* graphemat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 040CD3D82482E68000A68AB5 /* graphemat.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		040CD3C92482E5A300A68AB5 /* RecuitSimule */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RecuitSimule; sourceTree = BUILT_PRODUCTS_DIR; };
 		040CD3CC2482E5A300A68AB5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		040CD3D42482E62600A68AB5 /* liregraphe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = liregraphe.h; sourceTree = "<group>"; };
+		040CD3D52482E64500A68AB5 /* liregraphe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = liregraphe.cpp; sourceTree = "<group>"; };
+		040CD3D72482E65B00A68AB5 /* graphemat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graphemat.h; sourceTree = "<group>"; };
+		040CD3D82482E68000A68AB5 /* graphemat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = graphemat.cpp; sourceTree = "<group>"; };
+		040CD3DA2482E69000A68AB5 /* graphe2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = graphe2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				040CD3CC2482E5A300A68AB5 /* main.cpp */,
+				040CD3D42482E62600A68AB5 /* liregraphe.h */,
+				040CD3DA2482E69000A68AB5 /* graphe2.txt */,
+				040CD3D52482E64500A68AB5 /* liregraphe.cpp */,
+				040CD3D72482E65B00A68AB5 /* graphemat.h */,
+				040CD3D82482E68000A68AB5 /* graphemat.cpp */,
 			);
 			path = RecuitSimule;
 			sourceTree = "<group>";
@@ -119,6 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040CD3D62482E64500A68AB5 /* liregraphe.cpp in Sources */,
+				040CD3D92482E68000A68AB5 /* graphemat.cpp in Sources */,
 				040CD3CD2482E5A300A68AB5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
